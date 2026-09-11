@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .gradient-adipa {
+    background: linear-gradient(135deg, #704EFD 0%, #2CB7FF 100%);
+  }
+  .gradient-adipa-r {
+    background: linear-gradient(to right, #704EFD 0%, #2CB7FF 100%);
+  }
+  .text-gradient-adipa {
+    background: linear-gradient(135deg, #704EFD 0%, #2CB7FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .border-adipa {
+    border-color: #DFD5FF;
+  }
+  .ring-adipa {
+    --tw-ring-color: #704EFD;
+  }
+}
